@@ -4,11 +4,39 @@
 
 ![AI Lead Scraper](https://img.shields.io/badge/AI-Lead_Scraper-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Mac-lightgrey?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey?style=for-the-badge)
 
 **Professional B2B lead generation tool with AI-powered categorization and automated email campaigns**
 
-[Download](https://github.com/ChuprinaDaria/ai-lead-scraper/releases) • [Documentation](https://github.com/ChuprinaDaria/ai-lead-scraper/wiki) • [Report Bug](https://github.com/ChuprinaDaria/ai-lead-scraper/issues)
+</div>
+
+---
+
+## 📥 Download
+
+<div align="center">
+
+### Windows
+**[⬇️ Full Package (Recommended)](https://lazysoft.pl/downloads/ai-lead-scraper-windows-full.zip)**  
+*Installer + Chrome Extension - One click install*
+
+**[⬇️ Windows Installer Only](https://lazysoft.pl/downloads/ai-lead-scraper-setup.exe)**  
+*Desktop app only*
+
+**[⬇️ Chrome Extension Only](https://lazysoft.pl/downloads/chrome-extension.zip)**  
+*For existing installations*
+
+---
+
+### Linux
+**[⬇️ AppImage (Universal)](https://lazysoft.pl/downloads/ai-lead-scraper-1.0.0.AppImage)**  
+*Works on any distribution - No installation required*
+
+**[⬇️ DEB Package](https://lazysoft.pl/downloads/ai-lead-scraper_1.0.0_amd64.deb)**  
+*For Ubuntu/Debian*
+
+**[⬇️ Portable Archive](https://lazysoft.pl/downloads/ai-lead-scraper-1.0.0.tar.gz)**  
+*Tar.gz - Extract and run*
 
 </div>
 
@@ -20,7 +48,7 @@
 
 ✅ **Fully GDPR Compliant**  
 ✅ **Your data never leaves your machine**  
-✅ **No vendor lock-in** - export anytime  
+✅ **No vendor lock-in** - own your data  
 ✅ **Encrypted local storage**  
 
 ---
@@ -72,60 +100,129 @@
 - Access to all features
 - No time limits
 
-### 💎 **Lifetime Unlimited** — $350 (Limited Offer)
+### 💎 **Lifetime Unlimited** — $99
 - **Unlimited credits** forever
 - All features included
 - Priority support
 - Lifetime updates
 
-**⚠️ Limited:** First 10 buyers or 60 days from launch
-
 ### 💳 **Credit Packages**
 
-| Package | Credits | Price | Per Credit | Discount |
-|---------|---------|-------|------------|----------|
-| Starter | 100 | $5 | $0.05 | - |
-| Basic | 500 | $19 | $0.038 | - |
-| Professional | 2,000 | $59 | $0.0295 | - |
-| Business | 6,000 | $149 | $0.0248 | **-10%** |
-| Enterprise | 12,000 | $249 | $0.0208 | **-20%** |
+| Package | Credits | Price | Per Credit |
+|---------|---------|-------|------------|
+| Starter | 100 | $5 | $0.05 |
+| Basic | 500 | $19 | $0.038 |
+| Professional | 2,000 | $59 | $0.0295 |
+| Business | 6,000 | $149 | $0.0248 |
+| Enterprise | 12,000 | $249 | $0.0208 |
 
 ### 📊 **Credit Usage**
 - **1 credit** = scrape 1 contact
 - **1 credit** = generate + send text email
 - **2 credits** = generate + send HTML email (premium)
+---
+
+## 🚀 Installation
+
+### Windows Installation
+
+#### Option 1: Full Package (Recommended)
+
+1. **Download** [ai-lead-scraper-windows-full.zip](https://lazysoft.pl/downloads/ai-lead-scraper-windows-full.zip)
+2. **Extract** the archive
+3. **Run** `AI Lead Scraper Setup 1.0.0.exe`
+4. If Windows Defender warns you, click **"More info"** then **"Run anyway"**
+5. **Install Chrome Extension** (see instructions below)
+6. **Launch** AI Lead Scraper from desktop
+
+#### Option 2: Separate Downloads
+
+1. Download [Windows Installer](https://lazysoft.pl/downloads/ai-lead-scraper-setup.exe)
+2. Download [Chrome Extension](https://lazysoft.pl/downloads/chrome-extension.zip) separately
+3. Follow steps 3-6 above
 
 ---
 
-## 🚀 How It Works
+### Linux Installation
 
-### 1️⃣ **Installation**
+#### AppImage (Easiest - Works on Any Distribution)
 ```bash
-# Linux (Ubuntu/Debian)
-curl -sL https://raw.githubusercontent.com/ChuprinaDaria/ai-lead-scraper/main/install.sh | bash
+# Download
+wget https://lazysoft.pl/downloads/ai-lead-scraper-1.0.0.AppImage
 
-# Or download manually
-# Windows: AILeadScraper-Setup.exe
-# Linux: aileadscraper_1.0.0_amd64.deb
-# Mac: AILeadScraper.dmg
+# Make executable
+chmod +x ai-lead-scraper-1.0.0.AppImage
+
+# Run
+./ai-lead-scraper-1.0.0.AppImage
 ```
 
-### 2️⃣ **Scrape Contacts**
+**If it doesn't start**, install FUSE:
+```bash
+sudo apt-get install fuse libfuse2
+```
+
+#### DEB Package (Ubuntu/Debian)
+```bash
+# Download
+wget https://lazysoft.pl/downloads/ai-lead-scraper_1.0.0_amd64.deb
+
+# Install
+sudo dpkg -i ai-lead-scraper_1.0.0_amd64.deb
+
+# Fix dependencies if needed
+sudo apt-get install -f
+
+# Run
+ai-lead-scraper
+```
+
+#### Portable Archive (No Installation Required)
+```bash
+# Download
+wget https://lazysoft.pl/downloads/ai-lead-scraper-1.0.0.tar.gz
+
+# Extract
+tar -xzf ai-lead-scraper-1.0.0.tar.gz
+
+# Run
+cd ai-lead-scraper
+./start.sh
+```
+
+---
+
+### Chrome Extension Installation
+
+1. **Download** [chrome-extension.zip](https://lazysoft.pl/downloads/chrome-extension.zip)
+2. **Extract** the archive
+3. Open Chrome and go to `chrome://extensions/`
+4. Enable **"Developer mode"** (toggle in top right)
+5. Click **"Load unpacked"**
+6. Select the extracted `chrome-extension` folder
+7. **Log in** to the extension with your credentials
+8. Start scraping directly from Google Maps or business websites
+
+---
+
+## 🎯 How It Works
+
+### 1️⃣ **Scrape Contacts**
 - Open any business website in Chrome
 - Click Extension icon → "Scrape This Page"
 - Contacts automatically saved to Desktop App **on your local machine**
 
-### 3️⃣ **AI Categorization**
+### 2️⃣ **AI Categorization**
 - Contacts auto-categorized by AI
 - View, filter, edit contacts
 - Import additional contacts from CSV/XLSX
 
-### 4️⃣ **Launch Campaigns**
+### 3️⃣ **Launch Campaigns**
 - Create email template (or generate with AI)
 - Select contacts by category
 - Send automatically - emails tracked
 
-### 5️⃣ **Track Results**
+### 4️⃣ **Track Results**
 - View stats: opens, clicks, bounces
 - Manage unsubscribed contacts
 - Optimize future campaigns
@@ -137,39 +234,12 @@ curl -sL https://raw.githubusercontent.com/ChuprinaDaria/ai-lead-scraper/main/in
 ### Desktop App:
 - **Windows:** 10/11 (64-bit)
 - **Linux:** Ubuntu 20.04+, Debian 11+, Fedora 34+
-- **Mac:** macOS 11+ (Intel/Apple Silicon)
 - **RAM:** Minimum 4 GB
 - **Disk:** 500 MB free space
 
 ### Chrome Extension:
 - Google Chrome 90+ or Chromium-based browsers
 - Internet connection
-
----
-
-## 📦 Installation
-
-### Linux (Ubuntu/Debian)
-
-**Automatic:**
-```bash
-curl -sL https://raw.githubusercontent.com/ChuprinaDaria/ai-lead-scraper/main/install.sh | bash
-```
-
-**Manual:**
-```bash
-wget https://github.com/ChuprinaDaria/ai-lead-scraper/releases/download/v1.0.0/aileadscraper_1.0.0_amd64.deb
-sudo dpkg -i aileadscraper_1.0.0_amd64.deb
-sudo apt-get install -f -y
-```
-
-### Windows
-
-1. Download [AILeadScraper-Setup.exe](https://github.com/ChuprinaDaria/ai-lead-scraper/releases)
-2. Run installer
-3. Follow setup wizard
-
-
 
 ---
 
@@ -234,23 +304,22 @@ sudo apt-get install -f -y
 ## 📞 Support
 
 - **Email:** support@lazysoft.pl
-- **GitHub Issues:** https://github.com/ChuprinaDaria/ai-lead-scraper/issues
-- **Documentation:** https://github.com/ChuprinaDaria/ai-lead-scraper/wiki
+- **GitHub Issues:** [Report a bug](https://github.com/ChuprinaDaria/ai-lead-scraper/issues)
+- **Website:** https://lazysoft.pl
 
 ---
 
 ## 📄 License
 
-See [LICENSE](LICENSE)
+MIT License - See [LICENSE](LICENSE)
 
 ---
 
-## 🌍 Languages
+<div align="center">
 
-- [English](README.md) (current)
+**🎁 Start Free: Download and register - get 200 credits!**  
+**🔐 Your data stays local, on your machine.**
 
----
-
-**Start Free:** Download Desktop App and register - get 200 credits! Your data stays local, on your machine. 🔐
+[⬇️ Download for Windows](https://lazysoft.pl/downloads/ai-lead-scraper-windows-full.zip) | [⬇️ Download for Linux](https://lazysoft.pl/downloads/ai-lead-scraper-1.0.0.AppImage)
 
 </div>
